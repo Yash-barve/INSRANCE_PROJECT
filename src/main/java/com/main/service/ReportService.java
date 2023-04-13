@@ -4,6 +4,7 @@ import com.main.entity.Citizenplan;
 import com.main.request.SearchRequest;
 
 import javax.naming.directory.SearchResult;
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 public interface ReportService {
@@ -14,7 +15,7 @@ public interface ReportService {
 
     public List<Citizenplan> search(SearchRequest request);
 
-    public boolean exportToexcel();
+    public boolean exportToexcel(HttpServletResponse response) throws Exception;
 
-    public boolean exportTopdf();
+    public boolean exportTopdf(HttpServletResponse response)throws Exception;
 }

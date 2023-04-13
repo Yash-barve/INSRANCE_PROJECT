@@ -116,8 +116,8 @@
             </table>
             </div>
              <div class="d-flex justify-content-evenly align-items-center">
-             <a href="#" class="btn text-white btn-dark">EXCEL</a>
-             <a href="#" class="btn text-white btn-dark">PDF</a>
+             <a href="excel" class="btn text-white btn-dark">EXCEL</a>
+             <a href="pdf" class="btn text-white btn-dark">PDF</a>
              </div>
          </div>
 
